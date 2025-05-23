@@ -41,11 +41,14 @@
   color: #888;
 }
 
-.container {
-  max-width: 1280px;
-  background-color: #888;
-  width: 100%;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: left;
+.app-container-body {
+  min-height: 100%;  
+}
+
+.display-flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
 }
